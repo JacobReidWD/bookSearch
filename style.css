@@ -4,18 +4,20 @@
 }
 body {
   background-image: url("img/bg.jpg");
-  background-size: cover;
+  background-size: auto;
   }
 .dropbtn {
-  background-color: #3498DB;
+  background-color: #FFE882;
+  border-radius: 15px;
   color: white;
+  text-align: center;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
 }
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
+  background-color: #B9A95F;
 }
 .dropdown {
   position: relative;
