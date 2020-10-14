@@ -4,6 +4,7 @@ function dropDown() {
 function resetStyle(elemClass) {
   elem = document.getElementByClassName(elemClass);
   elem.style.background = 'white';
+}
   
   
 window.onclick = function(event) {
