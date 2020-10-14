@@ -22,6 +22,7 @@ body {
 .dropdown {
   position: relative;
   display: inline-block;
+  text-align: center;
 }
 .dropdown-content {
   display: none;
