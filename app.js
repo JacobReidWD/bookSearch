@@ -16,3 +16,10 @@ window.onclick = function(event) {
   }
 }
 
+document.getElementByClassName("dropdown-content").style.display = "none";
+document.getElementByClassName("dropdown-content").style.position = "absolute";
+document.getElementByClassName("dropdown-content").style.backgroundColor = "#f1f1f1";
+document.getElementByClassName("dropdown-content").style.minWidth = "160px";
+document.getElementByClassName("dropdown-content").style.boxShadow = "0px 8px 16px 0px rgba(0, 0, 0, 0.2)";
+document.getElementByClassName("dropdown-content").style.zIndex = "1";
+
