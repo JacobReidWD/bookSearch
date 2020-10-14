@@ -20,7 +20,7 @@ body {
   background-color: #B9A95F;
 }
 .dropdown {
-  position: relative;
+  position: absolute;
   display: inline-block;
   text-align: center;
 }
