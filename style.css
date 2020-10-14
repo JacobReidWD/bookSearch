@@ -18,7 +18,7 @@ body {
   border: none;
   border-radius: 15px;
 }
-.dropdown {
+.tabLinks {
   position: relative;
   display: inline-block;
 }
