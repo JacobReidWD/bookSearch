@@ -1,35 +1,48 @@
 <html>
-<body>
-  <center><h1>Welcome to bookSearch</h1></center>
-  <center><h3>choose a genre below.</h3></center>
+
+  <body>
+    <center>
+      <h1>Welcome to bookSearch</h1>
+    </center>
+    <center>
+      <h3>choose a genre below.</h3>
+    </center>
     <link href="style.css" rel="stylesheet" type="text/css">
-  <div class="dropdown">
-    <button onclick="dropDown()" class="dropbtn">-choose genre-</button>
-    <div id="myDropdown" class="dropdown-content">
-      <a href="genres/horror.html" class="horror">Horror</a>
-      <a href="genres/comedy.html" class="comedy">Comedy</a>
-      <a href="genres/mystery.html" class="mystery">Mystery</a>
-      <a href="genres/educational.html" class="educational">Educational</a>
-      <a href="genres/biography.html" class="biography">Biography</a>
-      <a href="genres/scifi.html" class="scifi">Sci-Fi</a>
-      <script src="app.js"></script>
-      <style>
-        center {
-          color: white;
-        }
-        h1 {
-          margin-top: 150px;
-        }
-        .dropdown {
-          position: absolute;
-          left: 45%;
-          top: 45%;
-          color: #13FFFA;
-          display: inline-block;
-          text-align: center;
-        }
-      </style>
+    <div class="dropdown">
+      <button onclick="dropDown()" class="dropbtn">-choose genre-</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="genres/horror.html" class="horror">Horror</a>
+        <a href="genres/comedy.html" class="comedy">Comedy</a>
+        <a href="genres/mystery.html" class="mystery">Mystery</a>
+        <a href="genres/educational.html" class="educational">Educational</a>
+        <a href="genres/biography.html" class="biography">Biography</a>
+        <a href="genres/scifi.html" class="scifi">Sci-Fi</a>
+        <script src="app.js"></script>
+        <style>
+          center {
+            color: white;
+          }
+
+          h1 {
+            margin-top: 150px;
+          }
+
+          .dropdown {
+            position: absolute;
+            left: 45%;
+            top: 45%;
+            color: #13FFFA;
+            display: inline-block;
+            text-align: center;
+          }
+
+          .dropbtn {
+            color: black;
+          }
+
+        </style>
+      </div>
     </div>
-  </div>
   </body>
-  </html>
+
+</html>
