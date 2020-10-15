@@ -22,8 +22,43 @@ window.onclick = function(event) {
   }
 }
 $(document).ready(function(){
-$(".dropbtn").click(function(){
-            $("#popUp").animate({
+$(".horror").click(function(){
+            $("#horror").animate({
+                width: "toggle"
+            });
+        });
+    });
+$(document).ready(function(){
+$(".mystery").click(function(){
+            $("#mystery").animate({
+                width: "toggle"
+            });
+        });
+    });
+$(document).ready(function(){
+$(".comedy").click(function(){
+            $("#comedy").animate({
+                width: "toggle"
+            });
+        });
+    });
+$(document).ready(function(){
+$(".educational").click(function(){
+            $("#educational").animate({
+                width: "toggle"
+            });
+        });
+    });
+$(document).ready(function(){
+$(".scifi").click(function(){
+            $("#scifi").animate({
+                width: "toggle"
+            });
+        });
+    });
+$(document).ready(function(){
+$(".biography").click(function(){
+            $("#biography").animate({
                 width: "toggle"
             });
         });
