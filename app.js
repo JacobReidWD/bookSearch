@@ -23,7 +23,7 @@ window.onclick = function(event) {
 }
 $(document).ready(function(){
 $(".dropbtn").click(function(){
-            $(".bookList").animate({
+            $("#popUp").animate({
                 width: "toggle"
             });
         });
