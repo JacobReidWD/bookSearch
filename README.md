@@ -1,5 +1,5 @@
 # bookSearch-js
-A basic program written in javascript to find a list of books from a designated genre.
+A static site written in HTML, JS, and CSS to find a list of books from a designated genre.
 
 
 # How To Use
