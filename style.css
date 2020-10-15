@@ -7,6 +7,9 @@
   font-size: 20px;
   width: 150px;
 }
+ul {
+  width: 130px;
+}
 
 div:hover a {
   display: block;
