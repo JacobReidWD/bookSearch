@@ -1,11 +1,27 @@
+.bookList {
+  display: none;
+  padding: 20px;
+  background: white;
+  list-style-type: none;
+  border-radius: 15px;
+  font-size: 20px;
+  width: 130px;
+}
+
+div:hover a {
+  display: block;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
+
 body {
   background-image: url("img/bg.jpg");
   background-size: 100% 100%;
-  }
+}
+
 .dropbtn {
   background-color: #FFE882;
   border-radius: 15px;
@@ -16,9 +32,12 @@ body {
   border: none;
   cursor: pointer;
 }
-.dropbtn:hover, .dropbtn:focus {
+
+.dropbtn:hover,
+.dropbtn:focus {
   background-color: #B9A95F;
 }
+
 .dropdown {
   position: absolute;
   left: 50%;
@@ -26,6 +45,7 @@ body {
   display: inline-block;
   text-align: center;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -34,6 +54,7 @@ body {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
+
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -41,8 +62,11 @@ body {
   display: block;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover { background-color: #ddd; }
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
 
-.show { display: block; }
+.show {
+  display: block;
+}
