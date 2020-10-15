@@ -22,8 +22,8 @@ window.onclick = function(event) {
   }
 }
 $(document).ready(function(){
-$(".bookList").click(function(){
-            $(".dropbtn").animate({
+$(".dropbtn").click(function(){
+            $(".bookList").animate({
                 width: "toggle"
             });
         });
