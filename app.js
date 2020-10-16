@@ -1,20 +1,26 @@
-function showButton(.close) {
+function showButton() {
   document.getElementById(close).style.background-color = "grey";
+}
   
-function showButton(.closeTwo) {
+function showButton() {
   document.getElementById(closetwo).style.background-color = "grey";
+}
     
-function showutton(.closeFour) {
+function showutton() {
   document.getElementById(closeFour).style.background-color = "grey";
+}
      
-function showButton(.closeFive) {
+function showButton() {
   document.getElementById(closeFive).style.background-color = "grey";
+}
         
-function showButton(.closeSix) {
-  document.getElementById(closeSix).style.background-color = "grey";
+function showButton() {
+  document.getElementById().style.background-color = "grey";
+}
          
-function showButton(.closeThree) {
+function showButton() {
   document.getElementById(closeThree).style.background-color = "grey";
+}
             
 
 
