@@ -63,3 +63,48 @@ $(".biography").click(function(){
             });
         });
     });
+
+/* hover animation */
+$(document).ready(function(){
+$(".biography").mouseover(function(){
+            $("#biography").animate({
+                width: "toggle"
+            });
+        });
+    });
+$(document).ready(function(){
+$(".scifi").mouseover(function(){
+            $("#scifi").animate({
+                width: "toggle"
+            });
+        });
+    });
+$(document).ready(function(){
+$(".horror").mouseover(function(){
+            $("#horror").animate({
+                width: "toggle"
+            });
+        });
+    });
+$(document).ready(function(){
+$(".comedy").mouseover(function(){
+            $("#comedy").animate({
+                width: "toggle"
+            });
+        });
+    });
+$(document).ready(function(){
+$(".mystery").mouseover(function(){
+            $("#mystery").animate({
+                width: "toggle"
+            });
+        });
+    });
+$(document).ready(function(){
+$(".educational").mouseover(function(){
+            $("#educational").animate({
+                width: "toggle"
+            });
+        });
+    });
+
