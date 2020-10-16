@@ -1,19 +1,19 @@
-function showButton() {
+function showButton(.close) {
   document.getElementById(close).style.background-color = "grey";
   
-function showButton() {
+function showButton(.closeTwo) {
   document.getElementById(closetwo).style.background-color = "grey";
     
-function showutton() {
+function showutton(.closeFour) {
   document.getElementById(closeFour).style.background-color = "grey";
      
-function showButton() {
+function showButton(.closeFive) {
   document.getElementById(closeFive).style.background-color = "grey";
         
-function showButton() {
+function showButton(.closeSix) {
   document.getElementById(closeSix).style.background-color = "grey";
          
-function showButton() {
+function showButton(.closeThree) {
   document.getElementById(closeThree).style.background-color = "grey";
             
 
