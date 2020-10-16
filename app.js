@@ -1,25 +1,25 @@
-function showButton() {
-  document.getElementById(close).style.background-color = "grey";
+function showButton(id) {
+  document.getElementById(id).style.background-color = "grey";
 }
   
-function showButton() {
-  document.getElementById(closetwo).style.background-color = "grey";
+function showButton(id) {
+  document.getElementById(id).style.background-color = "grey";
 }
     
-function showutton() {
-  document.getElementById(closeFour).style.background-color = "grey";
+function showutton(id) {
+  document.getElementById(id).style.background-color = "grey";
 }
      
-function showButton() {
-  document.getElementById(closeFive).style.background-color = "grey";
+function showButton(id) {
+  document.getElementById(id).style.background-color = "grey";
 }
         
-function showButton() {
-  document.getElementById().style.background-color = "grey";
+function showButton(id) {
+  document.getElementById(id).style.background-color = "grey";
 }
          
-function showButton() {
-  document.getElementById(closeThree).style.background-color = "grey";
+function showButton(id) {
+  document.getElementById(id).style.background-color = "grey";
 }
             
 
