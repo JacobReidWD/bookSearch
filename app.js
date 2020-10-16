@@ -1,5 +1,5 @@
 function showButton(id) {
-  document.getElementById(id).style.cssText = "background-color: #616161; color: #FF0101; border-radius: 10px;";
+  document.getElementById(id).style.cssText = "background-color:#616161;color:#FF0101;border-radius:10px;";
 }
 function show(id) {
   document.getElementById(id).style.display = "block";
