@@ -66,14 +66,14 @@ $(".biography").click(function(){
 
 /* close animation */
 $(document).ready(function(){
-$(".close").click(function(){
+$(".close-5").click(function(){
             $("#biography").animate({
                 width: "toggle"
             });
         });
     });
 $(document).ready(function(){
-$(".close").click(function(){
+$(".close-6").click(function(){
             $("#scifi").animate({
                 width: "toggle"
             });
@@ -87,21 +87,21 @@ $(".close").click(function(){
         });
     });
 $(document).ready(function(){
-$(".close").click(function(){
+$(".close-2").click(function(){
             $("#comedy").animate({
                 width: "toggle"
             });
         });
     });
 $(document).ready(function(){
-$(".close").click(function(){
+$(".close-3").click(function(){
             $("#mystery").animate({
                 width: "toggle"
             });
         });
     });
 $(document).ready(function(){
-$(".close").click(function(){
+$(".close-4").click(function(){
             $("#educational").animate({
                 width: "toggle"
             });
