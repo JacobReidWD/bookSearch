@@ -1,3 +1,32 @@
+function showButton() {
+  document.getElementById(close).style.background-color = "grey";
+  
+function showButton() {
+  document.getElementById(closetwo).style.background-color = "grey";
+    
+function showutton() {
+  document.getElementById(closeFour).style.background-color = "grey";
+     
+function showButton() {
+  document.getElementById(closeFive).style.background-color = "grey";
+        
+function showButton() {
+  document.getElementById(closeSix).style.background-color = "grey";
+         
+function showButton() {
+  document.getElementById(closeThree).style.background-color = "grey";
+            
+
+
+
+
+
+
+
+
+
+
+
 function show(id) {
   document.getElementById(id).style.display = "block";
 }
