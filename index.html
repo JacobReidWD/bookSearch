@@ -15,12 +15,12 @@
     <div class="dropdown">
       <button onclick="dropDown()" id="popUp" class="dropbtn">-choose genre-</button>
       <div id="myDropdown" class="dropdown-content">
-        <a onmouseover="noShow('comedy'); noShow('mystery'); noShow('educational'); noShow('biography'); noShow('scifi')" class="horror">Horror</a>
-        <a onmouseover="noShow('horror'); noShow('mystery'); noShow('educational'); noShow('biography'); noShow('scifi')" class="comedy">Comedy</a>
-        <a onmouseover="noShow('horror'); noShow('comedy'); noShow('educational'); noShow('biography'); noShow('scifi')" class="mystery">Mystery</a>
-        <a onmouseover="noShow('horror'); noShow('mystery'); noShow('comedy'); noShow('biography'); noShow('scifi')" class="educational">Educational</a>
-        <a onmouseover="noShow('horror'); noShow('mystery'); noShow('educational'); noShow('comedy'); noShow('scifi')" class="biography">Biography</a>
-        <a onmouseover="noShow('horror'); noShow('comedy'); noShow('educational'); noShow('biography'); noShow('mystery')" class="scifi">Sci-Fi</a>
+        <a onmouseover="noShow('comedy'); noShow('mystery'); noShow('educational'); noShow('biography'); noShow('scifi')" onclick="showButton()" class="horror">Horror</a>
+        <a onmouseover="noShow('horror'); noShow('mystery'); noShow('educational'); noShow('biography'); noShow('scifi')" onclick="showButton()" class="comedy">Comedy</a>
+        <a onmouseover="noShow('horror'); noShow('comedy'); noShow('educational'); noShow('biography'); noShow('scifi')" onclick="showButton()" class="mystery">Mystery</a>
+        <a onmouseover="noShow('horror'); noShow('mystery'); noShow('comedy'); noShow('biography'); noShow('scifi')" onclick="showButton()" class="educational">Educational</a>
+        <a onmouseover="noShow('horror'); noShow('mystery'); noShow('educational'); noShow('comedy'); noShow('scifi')" onclick="showButton()" class="biography">Biography</a>
+        <a onmouseover="noShow('horror'); noShow('comedy'); noShow('educational'); noShow('biography'); noShow('mystery')" onclick="showButton()" class="scifi">Sci-Fi</a>
       </div>
     </div>
     <div id="horror" class="bookList">
