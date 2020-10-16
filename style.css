@@ -73,3 +73,33 @@ body {
 .show {
   display: block;
 }
+.close {
+  background-color:#616161;
+  color:#FF0101;
+  border-radius:10px;
+}
+.closeTwo {
+  background-color:#616161;
+  color:#FF0101;
+  border-radius:10px;
+}
+.closeThree {
+  background-color:#616161;
+  color:#FF0101;
+  border-radius:10px;
+}
+.closeFour {
+  background-color:#616161;
+  color:#FF0101;
+  border-radius:10px;
+}
+.closeFive {
+  background-color:#616161;
+  color:#FF0101;
+  border-radius:10px;
+}
+.closeSix {
+  background-color:#616161;
+  color:#FF0101;
+  border-radius:10px;
+}
