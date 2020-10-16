@@ -1,38 +1,6 @@
 function showButton(id) {
   document.getElementById(id).style.backgroundColor = "grey";
 }
-  
-function showButton(id) {
-  document.getElementById(id).style.backgroundColor = "grey";
-}
-    
-function showutton(id) {
-  document.getElementById(id).style.backgroundColor = "grey";
-}
-     
-function showButton(id) {
-  document.getElementById(id).style.backgroundColor = "grey";
-}
-        
-function showButton(id) {
-  document.getElementById(id).style.backgroundColor = "grey";
-}
-         
-function showButton(id) {
-  document.getElementById(id).style.backgroundColor = "grey";
-}
-            
-
-
-
-
-
-
-
-
-
-
-
 function show(id) {
   document.getElementById(id).style.display = "block";
 }
