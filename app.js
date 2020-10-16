@@ -64,44 +64,44 @@ $(".biography").click(function(){
         });
     });
 
-/* hover animation */
+/* close animation */
 $(document).ready(function(){
-$(".biography").mouseover(function(){
+$(".close").click(function(){
             $("#biography").animate({
                 width: "toggle"
             });
         });
     });
 $(document).ready(function(){
-$(".scifi").mouseover(function(){
+$(".close").click(function(){
             $("#scifi").animate({
                 width: "toggle"
             });
         });
     });
 $(document).ready(function(){
-$(".horror").mouseover(function(){
+$(".close").click(function(){
             $("#horror").animate({
                 width: "toggle"
             });
         });
     });
 $(document).ready(function(){
-$(".comedy").mouseover(function(){
+$(".close").click(function(){
             $("#comedy").animate({
                 width: "toggle"
             });
         });
     });
 $(document).ready(function(){
-$(".mystery").mouseover(function(){
+$(".close").click(function(){
             $("#mystery").animate({
                 width: "toggle"
             });
         });
     });
 $(document).ready(function(){
-$(".educational").mouseover(function(){
+$(".close").click(function(){
             $("#educational").animate({
                 width: "toggle"
             });
