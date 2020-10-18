@@ -105,7 +105,7 @@ $(".closeThree").click(function(){
     });
 $(document).ready(function(){
 $(".it").click(function(){
-            $("id").slideUp({
+            $("#Id").slideUp({
                 width: "toggle"
             });
         });
