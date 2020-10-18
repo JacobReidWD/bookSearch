@@ -104,12 +104,18 @@ $(".closeThree").click(function(){
         });
     });
 $(document).ready(function(){
-$(".closeFour").click(function(){
-            $("#educational").animate({
+$(".it").click(function(){
+            $("id").slideUp({
                 width: "toggle"
             });
         });
     });
-  
+ $(document).ready(function(){
+$(".tester").click(function(){
+            $("#educational").animate({
+                width: "toggle"
+            });
+        });
+    }); 
     
 
