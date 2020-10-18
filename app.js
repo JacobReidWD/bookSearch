@@ -111,7 +111,7 @@ $(".closeFour").click(function(){
         });
     });
 $(document).ready(funtion() {
-$("button").click(function(){
+$(".tester").click(function(){
             $(".test").animate({
                 height: "toggle"
             });
