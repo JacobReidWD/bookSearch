@@ -110,13 +110,6 @@ $(".closeFour").click(function(){
             });
         });
     });
-$(document).ready(funtion() {
-$(".tester").click(function(){
-            $(".test").animate({
-                height: "toggle"
-            });
-        });
-    });
   
     
 
