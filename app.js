@@ -27,7 +27,7 @@ window.onclick = function(event) {
 $(document).ready(function(){
 $(".horror").click(function(){
             $("#horror").animate({
-                width: "toggle"
+                width: "400px", "toggle"
             });
         });
     });
